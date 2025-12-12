@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game...</title>
+    <link rel="stylesheet" href="snack.css">
+</head>
+
+<body>
+    <main>
+     
+        <div class="gameOverModel">
+            <div class="text-center">
+                <h4>Snake Game Over</h4>
+                <button id="restartBtn">Restart Game</button>
+            </div>
+        </div>
+        <section>
+            <div class="top-section-update">
+                <div class="high-score">
+                    <span>High Score : <span id="high_score"></span></span>
+                </div>
+                <div class="score">
+                    <span >Score : <span id="curr_score"></span></span>
+                </div>
+                <div class="time">
+                    <span>Time : <span id="time_update"></span> </span>
+                </div>
+            </div>
+            <div class="board"></div>
+        </section>
+        <div class="text-container">
+            <div class="text-center">
+                <h4>Welcome To The Snake Game</h4>
+                <button id="startBtn">Start Game</button>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>
+
+    <script src="snack.js"></script>
+</body>
+
+</html>
