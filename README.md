@@ -6,7 +6,7 @@ This project is created for **practice, learning game logic, and improving JavaS
 ---
 
 ## 🎮 Live Demo
-👉 https://syed-snake-game.netlify.app/
+👉 https://kumail-514.github.io/snake-Game/
 
 ---
 
